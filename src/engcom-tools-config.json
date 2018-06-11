@@ -1,0 +1,14 @@
+{
+  "deployment": {
+    "name": "Pull Request Deployment Tool",
+    "route": "deployment-tool",
+    "description": "Automation for deployment of public pull requests instances for collaborative testing",
+    "componentPath": "./pages/deployment"
+  },
+  "porting": {
+    "name": "Pull Request Porting Tool",
+    "route": "porting-tool",
+    "description": "Tooling to automate Pull Request porting between Magento versions and repositories",
+    "componentPath": "./pages/porting"
+  }
+}

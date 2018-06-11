@@ -1,0 +1,16 @@
+.refreshButton {
+    right: 30px;
+    position: fixed;
+    bottom: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.refreshButton:hover {
+    transform: rotate(300deg);
+}
+
+.refreshButton:hover > div {
+    opacity: 1 !important;
+    transition: 0.5s !important;
+}

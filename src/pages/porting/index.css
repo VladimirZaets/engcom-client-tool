@@ -1,0 +1,83 @@
+.main-container {
+    margin-top: 20px;
+}
+
+.porting-configuration-button:hover svg {
+    transform: rotate(360deg);
+}
+
+.porting-jobs-container {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.stepper-container {
+    padding-left: 50px;
+}
+
+.jobs-list {
+    padding: 20px;
+}
+
+.stepper-button-bar > div {
+    margin: 10px 10px 10px 0;
+}
+
+.stepper-result-content > p {
+    font-family: sans-serif;
+}
+
+.stepper-result-container {
+    margin: 35px 10px 10px 45px;
+}
+
+.stepper-result-content > p > span {
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.refresh-jobs-button {
+    vertical-align: bottom;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.inline-refresh-indicator {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.stepper-refresh-indicator {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.jobs-pr-link span {
+    text-transform: lowercase !important;
+}
+
+.use-fork-checkbox {
+    padding-left: 55px !important;
+}
+
+.porting-strategy-radio-container {
+    padding: 5px 15px;
+}
+
+.porting-select-container {
+    padding: 5px 16px;
+}
+
+.porting-sub-title {
+    font-size: 10px;
+}
+
+.porting-strategy-radio-button {
+    padding: 8px 0;
+}
+
+.porting-organization-indicator {
+    position: relative;
+}

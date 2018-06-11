@@ -1,0 +1,47 @@
+.message {
+    background-color: green;
+    padding: 15px 50px 15px 25px;
+    color: #fff;
+    min-height: 70px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 6px, rgba(0, 0, 0, 0.3) 0px 1px 4px;
+    opacity: 0;
+    transition: all 500ms;
+}
+
+.message:hover {
+    opacity: 1;
+}
+
+.message > span {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.message-opacity {
+    opacity: 0.7;
+}
+
+.messages-list {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2000;
+    width: 100%;
+    max-width: 350px;
+    min-width: 250px;
+    transition: all 500ms;
+}
+
+.close-icon {
+    position: absolute;
+    right: 15px;
+    top: 22px;
+    color: #fff !important;
+    cursor: pointer;
+}
